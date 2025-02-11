@@ -1,0 +1,11 @@
+.cardlist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f6f6f6f6;
+    border-radius: 25px;
+    gap: 40px;
+    padding: 40px;
+    max-width: 90vw;
+    margin: auto;
+    box-sizing: border-box;
+}

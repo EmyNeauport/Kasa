@@ -1,0 +1,21 @@
+.card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-radius: 25px;
+    .card__img {
+        width: 100%; /* L’image occupe toute la largeur de la carte */
+        height: auto; /* Garde les proportions de l’image */
+        aspect-ratio: 1 / 1; 
+        object-fit: cover;
+        border-radius: 25px;
+    }
+    .card__tittle {
+        position: absolute;
+        padding-left: 20px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
