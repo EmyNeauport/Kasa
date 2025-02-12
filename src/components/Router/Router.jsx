@@ -8,12 +8,14 @@ import ErrorPage from "../../pages/Error/index.jsx";
 
 const Router = () => {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/product/:id" element={<ProductPage />} />
-      <Route path="*" element={<ErrorPage />} />
-    </Routes>
+    <div className="page">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </div>
   );
 };
 

@@ -5,12 +5,20 @@ import Footer from '../../components/Footer'
 
 import imageAboutBanner from '../../assets/mountain-landscape.svg'
 
+import './about.scss'
+
+import collapsesData from "../../../text.json"
+
 function AboutPage() {
   return (
-    <div>
+    <div className='about'>
       <Header />
       <Banner image={imageAboutBanner} altText={"Paysage d'une forêt avec des montagnes enneigées en arrière plan"} text={""}/>
-      <Collapse />
+      <div>
+        {collapsesData.map((section) => (
+          <Collapse key={section.id} title={section.title} description={section.description} />)
+        )}
+      </div>
       <Footer />
     </div>
   )

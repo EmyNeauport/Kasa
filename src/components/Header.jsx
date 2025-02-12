@@ -10,8 +10,8 @@ function Header() {
                 <img src={logo} alt="logo Kasa" className='navbar__img' />
             </div>
             <nav className='navbar__nav'>
-                <Link to="/" className='navbar__link--active' >Accueil</Link>
-                <Link to="/about">À propos</Link>
+                <Link to="/" className='navbar__link navbar__link--active' >Accueil</Link>
+                <Link to="/about" className="navbar__link">À propos</Link>
             </nav>
         </div>
     </header>

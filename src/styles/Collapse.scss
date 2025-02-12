@@ -1,0 +1,27 @@
+@use './variables.scss' as*;
+
+.collapse {
+    display: flex;
+    flex-direction: column;
+    max-width: 75vw;
+    margin: auto;
+    margin-bottom: 30px;
+    .collapse__title {
+    background-color: $main-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 54px;
+    padding: 0 20px 0 15px;
+    }
+    .collapse__description {
+    background-color: #FBFBFB;
+    padding: 0 20px;
+        p {
+            color: black;
+            font-size: 14px;
+        }
+    }
+}
+

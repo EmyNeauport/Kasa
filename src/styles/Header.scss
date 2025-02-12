@@ -4,6 +4,7 @@
     justify-content: space-between;
     max-width: 90vw;
     margin: auto;
+    margin-top: 20px;
     .navbar__img {
         height: 68px;
         max-height: 3vh;
@@ -12,7 +13,12 @@
         display: flex;
         gap: 57px;
     }
-        .navbar__link--active {
+    .navbar__link {
+        @media only screen and (max-width : 768px) {
+            text-transform: uppercase;
+        }
+        &--active {
             text-decoration: underline;
         }
+    }
 }
