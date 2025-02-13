@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import Card from "./Card"
 import cardsData from "../../data.json"
-import "../styles/CardList.scss"
+import "../assets/styles/Cardlist.scss"
 
 function CardList() {
     const [cards, setCards] = useState([])
@@ -14,6 +14,7 @@ function CardList() {
         {cards.map((card) => (
           <Card 
             key={card.id} 
+            id={card.id}
             image={card.cover} 
             altText={card.localisation} 
             title={card.title} 

@@ -1,8 +1,15 @@
-import "../styles/Card.scss"
+import "../assets/styles/Card.scss"
+import { useNavigate } from "react-router-dom";
 
-function Card({image, altText, title}) {
+function Card({id, image, altText, title}) {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+      navigate(`/product/${id}`);
+    };
+
     return (
-        <div className="card">
+        <div className="card" onClick={handleClick}>
             <img src={image} alt={altText} className="card__img"/>
             <p className="card__tittle">{title}</p>
         </div>

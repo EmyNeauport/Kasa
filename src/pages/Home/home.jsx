@@ -1,4 +1,4 @@
-import './home.scss'
+import '../../assets/styles/home.scss'
 
 import Header from '../../components/Header'
 import Banner from '../../components/Banner'
@@ -11,7 +11,10 @@ function HomePage() {
   return (
     <div className='home'>
       <Header />
-      <Banner image={imageHomeBanner} altText={"Paysage de falaises en face de la mer"} text={"Chez vous, partout et ailleurs"}/>
+      <Banner 
+        image={imageHomeBanner}
+        altText={"Paysage de falaises en face de la mer"}
+        text={"Chez vous, partout et ailleurs"}/>
       <CardList />
       <Footer />
     </div>

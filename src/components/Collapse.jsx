@@ -1,6 +1,6 @@
 import { useState } from "react"
-import '../styles/Collapse.scss'
-import '../styles/variables.scss'
+import '../assets/styles/Collapse.scss'
+import '../assets/styles/variables.scss'
 import arrowClose from '../assets/arrow-close.svg'
 import arrowOpen from '../assets/arrow-open.svg'
 

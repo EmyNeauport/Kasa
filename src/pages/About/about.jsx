@@ -5,7 +5,7 @@ import Footer from '../../components/Footer'
 
 import imageAboutBanner from '../../assets/mountain-landscape.svg'
 
-import './about.scss'
+import '../../assets/styles/about.scss'
 
 import collapsesData from "../../../text.json"
 

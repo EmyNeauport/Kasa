@@ -1,9 +1,10 @@
+@use './variables.scss' as*;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .page {
     height: 100%;
     width: 100%;
-    p, a, h2 {
+    p, a, h1, h2, span {
         font-family: 'Montserrat', sans-serif;
     }
     p, h2 {
@@ -16,5 +17,8 @@
     a {
         text-decoration: none;
         color: black;
+    }
+    h1 {
+        color: $main-color;
     }
 }

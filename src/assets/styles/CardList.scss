@@ -10,6 +10,9 @@
     box-sizing: border-box;
     @media only screen and (max-width : 768px) {
         grid-template-columns: 1fr;
+        background-color: white;
+        padding: 0;
+        gap: 20px;
     }
 }
 

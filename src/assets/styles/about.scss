@@ -2,5 +2,10 @@
 .about {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    .navbar {
+        margin-bottom: 30px;
+    }
+    .banner {
+        margin-bottom: 30px;
+    }
 }
