@@ -10,7 +10,12 @@
     align-items: center;
     width: 90vw;
     margin: auto;
+    @media only screen and (max-width : 768px) {
+        flex-direction: column;
+        gap: 20px;
+    }
     .product__item {
+        width: 100%;
         p {
             color: black;
             font-size: 18px;
@@ -47,13 +52,24 @@
     .product__host {
         display: flex;
         flex-direction: column;
+        align-items: end;
         gap: 20px;
+        width: 100%;
+        @media only screen and (max-width : 768px) {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
         p {
             color: $main-color;
             font-size: 18px;
             font-weight: 500;
             width: 93px;
             text-align: end;
+            @media only screen and (max-width : 768px) {
+                margin: 0;
+            }
         }
         img {
             width: 64px;
@@ -70,6 +86,9 @@
         .product__host--people {
             display: flex;
             gap: 10px;
+            @media only screen and (max-width : 768px) {
+                align-items: center;
+            }
         }
         .product__host--stars {
             display: flex;
@@ -88,6 +107,10 @@
     gap: 76px;
     flex-direction: row;
     justify-content: space-between;
+    @media only screen and (max-width : 768px) {
+        flex-direction: column;
+        gap: 30px;
+    }
     .collapse {
         width: 50%;
         flex: 1;
@@ -95,5 +118,9 @@
         .collapse__description {
             min-height: 70%;
         }
+        @media only screen and (max-width : 768px) {
+            width: 100%;
+        }
     }
+    
 }
