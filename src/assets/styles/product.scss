@@ -77,3 +77,23 @@
         }
     }
 }
+
+.product__collapses {
+    h2{
+        font-size: 18px;
+    }
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    gap: 76px;
+    flex-direction: row;
+    justify-content: space-between;
+    .collapse {
+        width: 50%;
+        flex: 1;
+        margin:0 ;
+        .collapse__description {
+            min-height: 70%;
+        }
+    }
+}

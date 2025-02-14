@@ -4,7 +4,7 @@ import '../../assets/styles/product.scss'
 import '../../assets/styles/variables.scss'
 
 import Header from '../../components/Header'
-import Carousel from '../../components/Carousel'
+import Slider from '../../components/Slider'
 import Collapse from '../../components/Collapse'
 import Footer from '../../components/Footer'
 
@@ -15,7 +15,6 @@ function ProductPage() {
   const { id } = useParams();
   const product = data.find((item) => item.id === id);
 
-    // Fonction pour générer les étoiles
     const generateStars = (rating) => {
       const totalStars = 5;
       return Array.from({ length: totalStars }, (_, index) => (
@@ -24,14 +23,14 @@ function ProductPage() {
           key={index}
           className="star"
           alt="star"
-        />        
+        />
       ));
     };
 
   return (
     <div className="products__page">
       <Header />
-      <Carousel />
+      <Slider />
         <div className="product">
           <div className="product__item">
             <h1>{product.title}</h1>
@@ -52,8 +51,20 @@ function ProductPage() {
             </div>
           </div>
         </div>
-      <Collapse />
-
+      <div className="product__collapses">
+          <Collapse 
+            key={product.id}
+            title="Description"
+            description={product.description} />
+          <Collapse 
+            key={product.id}
+            title="Équipements"
+            description=
+              {product.equipments.map((equipment, index) => (
+                <div key={index}>{equipment}</div>
+              ))}
+          />
+      </div>
       <Footer />
     </div>
   );

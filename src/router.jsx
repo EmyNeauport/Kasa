@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
-import HomePage from "./pages/Home/home.jsx";
-import AboutPage from "./pages/About/about.jsx";
-import ProductPage from "./pages/Product/product.jsx";
-import ErrorPage from "./pages/Error/error.jsx";
+import HomePage from "./pages/Home/Home.jsx";
+import AboutPage from "./pages/About/About.jsx";
+import ProductPage from "./pages/Product/Product.jsx";
+import ErrorPage from "./pages/Error/Error.jsx";
 
 const Router = () => {
   return (

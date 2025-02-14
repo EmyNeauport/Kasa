@@ -19,7 +19,7 @@
       "location": "Ile de France - Paris 17e",
       "equipments": [
         "Équipements de base",
-        "Micro-Ondes",
+        "Micro-ondes",
         "Douche italienne",
         "Frigo",
         "WIFI"
@@ -41,7 +41,7 @@
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
       ],
-      "description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
+      "description": "Profitez du charme de la vie parisienne dans un magnifique appartement. À 3 minutes à pied du Canal Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
       "host": {
         "name": "Della Case",
         "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
@@ -50,7 +50,7 @@
       "location": "Ile de France - Paris 10e",
       "equipments": [
         "Parking",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Machine à laver",
         "Wi-fi",
         "Cuisine équipée",
@@ -83,7 +83,7 @@
         "Wi-fi",
         "Cuisine équipée",
         "Télévision",
-        "Sèche Cheveux"
+        "Sèche cheveux"
       ],
       "tags": [
         "Buttes Chaumont",
@@ -109,9 +109,9 @@
       "rating": "3",
       "location": "Ile de France - Paris 11e",
       "equipments": [
-        "Micro-Ondes",
+        "Micro-ondes",
         "Wi-fi",
-        "Chambre Séparée",
+        "Chambre séparée",
         "Climatisation",
         "Télévision"
       ],
@@ -143,9 +143,9 @@
       "location": "Ile de France - Paris 10e",
       "equipments": [
         "Frigo Américain",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Wi-fi",
-        "Chambre Séparée",
+        "Chambre séparée",
         "Parking"
       ],
       "tags": [
@@ -172,7 +172,7 @@
       "rating": "5",
       "location": "Ile de France - Paris 18e",
       "equipments": [
-        "Chambre Séparée",
+        "Chambre séparée",
         "Parking"
       ],
       "tags": [
@@ -191,7 +191,7 @@
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-3.jpg",
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-4.jpg"
       ],
-      "description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
+      "description": "Ce studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
       "host": {
         "name": "Hugo Perrier",
         "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
@@ -202,7 +202,7 @@
         "Salle de bains",
         "Frigo",
         "Wi-fi",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Bureau",
         "Parking"
       ],
@@ -233,7 +233,7 @@
       "location": "Ile de France - Paris 6e",
       "equipments": [
         "Wi-fi",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Machine à laver",
         "Parking",
         "Lit King Size",
@@ -267,7 +267,7 @@
       "equipments": [
         "Climatisation",
         "Machine à laver",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Wi-fi",
         "Parking"
       ],
@@ -298,7 +298,7 @@
         "Vue Parc",
         "Chauffage",
         "Sèche linge",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Wi-fi",
         "Ascenseur"
       ],
@@ -329,7 +329,7 @@
       "equipments": [
         "Clic-clac",
         "Four",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Wi-fi"
       ],
       "tags": [
@@ -358,7 +358,7 @@
       "equipments": [
         "Rangements",
         "Lit",
-        "Sèche Cheveux",
+        "Sèche cheveux",
         "Wi-fi",
         "TV",
         "Bouilloire"
@@ -367,7 +367,7 @@
         "Marais",
         "République",
         "Studio",
-        "Proche Métros",
+        "Proche métros",
         "Commerces"
       ]
     },
@@ -463,7 +463,7 @@
         "TV",
         "Cintres",
         "Four",
-        "Micro-Ondes",
+        "Micro-ondes",
         "Parking"
       ],
       "tags": [
@@ -496,7 +496,7 @@
         "Four",
         "Frigo",
         "Wi-fi",
-        "Micro-Ondes",
+        "Micro-ondes",
         "Parking"
       ],
       "tags": [
@@ -529,7 +529,7 @@
         "Frigo",
         "Hotte",
         "Wi-fi",
-        "Micro-Ondes"
+        "Micro-ondes"
       ],
       "tags": [
         "Vue Parc",
@@ -553,7 +553,7 @@
       "equipments": [
         "Bouilloire",
         "Wi-fi",
-        "Micro-Ondes"
+        "Micro-ondes"
       ],
       "tags": [
         "Vue Parc",
@@ -581,7 +581,7 @@
         "Four",
         "Frigo",
         "Wi-fi",
-        "Micro-Ondes"
+        "Micro-ondes"
       ],
       "tags": [
         "Studio",
@@ -606,7 +606,7 @@
       "equipments": [
         "Wi-fi",
         "Équipements de base",
-        "Micro-Ondes",
+        "Micro-ondes",
         "Frigo",
         "Baignoire"
       ],

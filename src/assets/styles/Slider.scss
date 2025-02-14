@@ -1,0 +1,13 @@
+.carousel-root {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+        img {
+            border-radius: 25px;
+            height: 415px;
+            object-fit: cover;
+        }
+    .control-dots {
+        display: none;
+    }
+}
