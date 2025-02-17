@@ -1,4 +1,5 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import data from "../../../data.json";
 import '../../assets/styles/product.scss'
 import '../../assets/styles/variables.scss'
@@ -12,8 +13,18 @@ import grayStar from '../../assets/star.svg'
 import redStar from '../../assets/star-red.svg'
 
 function ProductPage() {
-  const { id } = useParams();
-  const product = data.find((item) => item.id === id);
+  const { id } = useParams()
+  const navigate = useNavigate()
+  const product = data.find((item) => item.id === id)
+
+    useEffect(() => {
+      if (!product) {
+        navigate("/error", { replace: true });  // ✅ Redirection propre
+      }
+    }, [product, navigate]);
+  
+    
+    if (!product) return null;
 
     const generateStars = (rating) => {
       const totalStars = 5;
@@ -28,16 +39,17 @@ function ProductPage() {
     };
 
   return (
-    <div className="products__page">
+    <div className="product">
       <Header />
       <Slider />
-        <div className="product">
+      <div>
+        <div className="product__container">
           <div className="product__item">
             <h1>{product.title}</h1>
             <p>{product.location}</p>
             <div className="product__item--tags">
               {product.tags.map((tag,index) => (
-                  <span className="product__item--tag" key={index}>{tag}</span>
+                  <h3 className="product__item--tag" key={`${product.id}-tag-${index}`}>{tag}</h3>
                 ))}
             </div>
           </div>
@@ -53,21 +65,22 @@ function ProductPage() {
         </div>
       <div className="product__collapses">
           <Collapse 
-            key={product.id}
+            key={`${product.id}-desc`} 
             title="Description"
             description={product.description} />
           <Collapse 
-            key={product.id}
+            key={`${product.id}-equip`}
             title="Équipements"
-            description=
-              {product.equipments.map((equipment, index) => (
-                <div key={index}>{equipment}</div>
+            description={product.equipments.map((equipment, index) => (
+                <span key={index}>{equipment}<br /></span>
               ))}
           />
       </div>
+      </div>
       <Footer />
     </div>
-  );
+  )
 }
+
 
 export default ProductPage;

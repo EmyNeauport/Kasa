@@ -1,18 +1,22 @@
 @use '../../assets/styles/variables.scss' as*;
-.products__page {
+
+.product {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.product {
+
+.product__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 90vw;
     margin: auto;
+    margin-bottom: 20px;
     @media only screen and (max-width : 768px) {
         flex-direction: column;
-        gap: 20px;
+        
+        margin-bottom: 20px;
     }
     .product__item {
         width: 100%;
@@ -82,7 +86,6 @@
             height: 24px;
             
         }
-        
         .product__host--people {
             display: flex;
             gap: 10px;

@@ -11,7 +11,7 @@ function Card({id, image, altText, title}) {
     return (
         <div className="card" onClick={handleClick}>
             <img src={image} alt={altText} className="card__img"/>
-            <p className="card__tittle">{title}</p>
+            <h2 className="card__tittle">{title}</h2>
         </div>
     )
 }

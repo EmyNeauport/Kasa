@@ -19,15 +19,18 @@
         display: flex;
         gap: 57px;
         @media only screen and (max-width : 768px) {
-            gap: 30px;
+            gap: 20px;
+            a {
+                font-size: 20px;
+            }
         }
     }
     .navbar__link {
         @media only screen and (max-width : 768px) {
             text-transform: uppercase;
         }
-        &--active {
-            text-decoration: underline;
-        }
+    }
+    .navbar__link.active {
+        text-decoration: underline; 
     }
 }

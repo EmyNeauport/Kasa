@@ -10,7 +10,7 @@ function ErrorPage() {
         <Header />
         <div className='error__main'>
           <h1>404</h1>
-          <p className='error__main-text'>Oups ! La page que vous demandez n'existe pas.</p>
+          <h2 className='error__main-text'>Oups ! La page que vous demandez n'existe pas.</h2>
           <a href="/" className='error__main-link'>Retourner sur la page d'accueil</a>
         </div>
         <Footer />
