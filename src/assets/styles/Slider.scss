@@ -1,47 +1,51 @@
 .carousel-root {
-    width: 90vw;
-    margin: auto;
+  width: 90vw;
+  margin: auto;
 }
+
 .carousel {
-    display: flex;
-    position: relative;
-    
-        img {
-            border-radius: 25px;
-            height: 415px;
-            object-fit: cover;
-        }
-        .control-dots {
-            display: none;
-        }
-        .carousel-status {
-            font-size: 18px;
-            text-shadow: none;
-            position: absolute;
-            top: 80%;
-            right: 50%;
-        }
-        .carousel__arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            cursor: pointer;
-            z-index: 10;
-        
-            img {
-              width: 46px;
-              height: 79px;
-            }
-        
-            &--prev {
-              left: 30px; /* Place la flèche à gauche, en dehors de l’image */
-            }
-        
-            &--next {
-              right: 30px; /* Place la flèche à droite, en dehors de l’image */
-            }
-          }
-        
+  display: flex;
+  position: relative;
+  
+  img {
+      border-radius: 25px;
+      height: 415px;
+      object-fit: cover;
+      width: 100%;
+  }
+
+  .control-dots {
+      display: none;
+  }
+
+  .carousel-status {
+      font-size: 18px;
+      text-shadow: none;
+      position: absolute;
+      top: 85%;
+      right: 50%;
+  }
+
+  .carousel__arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      z-index: 10;
+  
+      img {
+          width: 46px;
+          height: 79px;
+      }
+
+      &--prev {
+          left: 30px;
+      }
+
+      &--next {
+          right: 30px;
+      }
+  }
 }

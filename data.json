@@ -124,7 +124,7 @@
     },
     {
       "id": "0979876d",
-      "title": "Appartement de Standing - 10e",
+      "title": "Appartement de standing - 10e",
       "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
       "pictures": [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
@@ -183,7 +183,7 @@
     },
     {
       "id": "b4c67936",
-      "title": "Cheap - Studio 18ème",
+      "title": "Bon rapport qualité/prix - Studio 18ème",
       "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
       "pictures": [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
@@ -208,7 +208,7 @@
       ],
       "tags": [
         "Transports",
-        "Cheap",
+        "Abordable",
         "18ème"
       ]
     },
@@ -474,7 +474,7 @@
     },
     {
       "id": "1e181317",
-      "title": "Loft de Luxe à la Défense",
+      "title": "Loft de luxe à la Défense",
       "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
       "pictures": [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
@@ -538,7 +538,7 @@
     },
     {
       "id": "2139a317",
-      "title": "Cheap - Chambre Paris 20",
+      "title": "Bon rapport qualité/prix - Chambre Paris 20",
       "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg",
       "pictures": [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg"

@@ -8,7 +8,9 @@ function Header() {
     <header>
         <div className='navbar'>
             <div>
-                <img src={logo} alt="logo Kasa" className='navbar__img' />
+                <Link to="/">
+                    <img src={logo} alt="logo Kasa" className='navbar__img' />
+                </Link>
             </div>
             <nav className='navbar__nav'>
                 <Link to="/" className={`navbar__link ${location.pathname === "/" ? "active" : ""}`}>
