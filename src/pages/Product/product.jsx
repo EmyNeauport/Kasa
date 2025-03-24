@@ -13,17 +13,16 @@ import grayStar from '../../assets/star.svg'
 import redStar from '../../assets/star-red.svg'
 
 function ProductPage() {
-  const { id } = useParams()
-  const navigate = useNavigate()
-  const product = data.find((item) => item.id === id)
-
+  const { id } = useParams() //récupérer l'id du produit
+  const navigate = useNavigate() //permettre de rediriger vers la page error si besoin
+  const product = data.find((item) => item.id === id) //lien id/data.json
+    
     useEffect(() => {
       if (!product) {
-        navigate("/error", { replace: true });  // ✅ Redirection propre
+        navigate("/error", { replace: true }); 
       }
     }, [product, navigate]);
   
-    
     if (!product) return null;
 
     const generateStars = (rating) => {
